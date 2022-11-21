@@ -62,7 +62,7 @@ To train a model with 2 nodes, for instance, run the commands below in sequence:
 $ CUDA_VISIBLE_DEVICES='<GPU IDs>' python3 main.py --lr 0.1 \
                   --lr_decay_schedule 150 225 \
                   --PSKD \
-                  --experiments_dir '<set your own path>' \a
+                  --experiments_dir '<set your own path>' \
                   --batch_size 64 \
                   --classifier_type 'ResNet18' \
                   --data_path '<root your own data path>' \
